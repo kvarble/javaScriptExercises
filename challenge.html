@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+        <p id="target"></p>
+        <script>
+            const player1 = prompt("1 rock, paper, scissors");
+            const player2 = prompt("2 rock, paper, scissors");
+            if (player1.toLowerCase() === "rock" && player2.toLowerCase === 'paper') {document.querySelector('#target').innerHTML = 'player2'}
+            else if (player1.toLowerCase() === "rock" && player2.toLowerCase === 'scissors') {document.querySelector('#target').innerHTML = 'player1'}
+            else if (player1.toLowerCase() === "scissors" && player2.toLowerCase === 'paper') {}
+            else if (player1.toLowerCase() === "scissors" && player2.toLowerCase === 'rock') {}
+            else if (player1.toLowerCase() === "paper" && player2.toLowerCase === 'rock') {}
+            else if (player1.toLowerCase() === "paper" && player2.toLowerCase === 'scissors') {}
+
+        </script>
+</body>
+</html>
